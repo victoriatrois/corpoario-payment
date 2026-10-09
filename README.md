@@ -1,6 +1,6 @@
 # corpoario-payment
 
-Microsserviço de **Pagamentos** da plataforma de ateliê digital. Java 21, Maven e Quarkus 3.33 (BOM `io.quarkus.platform:quarkus-bom`).
+Microsserviço de **Pagamentos** da plataforma de ateliê digital. Java 25, Maven e Quarkus 3.33 (BOM `io.quarkus.platform:quarkus-bom`).
 
 Esta é apenas a estrutura inicial: não há endpoints, entidades, mensageria nem integração com o provedor de pagamento.
 
@@ -10,7 +10,7 @@ REST + Jackson, Hibernate ORM com Panache, PostgreSQL, Flyway, Hibernate Validat
 
 ## Pré-requisitos
 
-JDK 21 e Maven 3.9+. PostgreSQL e RabbitMQ são necessários ao executar (em modo dev o Quarkus pode subir containers via Dev Services, se houver Docker).
+JDK 25 e Maven 3.9+. PostgreSQL e RabbitMQ são necessários ao executar (em modo dev o Quarkus pode subir containers via Dev Services, se houver Docker).
 
 ## Executar
 
